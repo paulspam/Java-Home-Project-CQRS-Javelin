@@ -2,14 +2,14 @@ version: "3.8"
 
 services:
   test-reader-microservice:
-    image: homeacademy/test-reader-microservice
+    image: homeacademy/test-reader-microservice-fork
     ports:
       - "8085:8085"
     networks:
       - javelin
 
   test-writer-microservice:
-    image: homeacademy/test-writer-microservice
+    image: homeacademy/test-writer-microservice-fork
     ports:
       - "8086:8086"
     networks:
